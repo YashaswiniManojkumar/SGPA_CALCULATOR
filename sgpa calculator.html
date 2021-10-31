@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CALCULATOR</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="logo">
+            <div class="logocontainer">
+                <table>
+                    <tr>
+                   <td><a href="home.html">
+                        <img src="C:\Users\Pallavi Gowda\OneDrive\Desktop\Project 2\logo.jpeg" width="90%" height="100%" alt="img"></a></td>
+                <td><br><br><br><br><br><br>
+                    <div class="menu">
+                        <a href="home.html" class="menu" ><b>HOME</b></a>
+                        <a href="sgpa calculator.html" class="menu"><b>SGPA CALCULATOR</b></a>
+                        <a href="cgpa calculator.html" class="menu"><b>CGPA CALCULATOR</b></a>
+                        <a href="about.html" class="menu"><b>ABOUT</b></a>
+                    </td>
+                </tr>
+                </table>
+            </div>
+            </div>
+      <hr>
+      <div class="sgpa_main">
+            <a href="https://www.takeitsmart.in/how-to-calculate-the-sgpacgpa-and-percentage-in-vtu-with-example/"
+                target="_blank"><h1><center>HOW TO CALCULATE SGPA AND CGPA</center></h1></a> <br>
+        </p>
+        
+          <center><h2><u>VTU SGPA Calculator</u></h2></center>
+          <br>
+        
+            <!--To calculate sgpa using forms by javascript-->
+            <div class="container">
+                <div class="col-1">
+                    <input type="number" id="c1" placeholder="enter your credits" name="c1" /> <br> <br>
+                    <input type="number" id="c2" placeholder="enter your credits" name="c2" /> <br> <br>
+                    <input type="number" id="c3" placeholder="enter your credits" name="c3"  /> <br> <br>
+                    <input type="number" id="c4" placeholder="enter your credits"  name="c4"  /> <br> <br>
+                    <input type="number" id="c5" placeholder="enter your credits" name="c5" /> <br> <br>
+                    <input type="number" id="c6" placeholder="enter your credits" name="c6" /> <br> <br>
+                    <input type="number" id="c7" placeholder="enter your credits" name="c7" /> <br> <br>
+                    <input type="number" id="c8" placeholder="enter your credits" name="c8"  /> <br> <br>
+                    <input type="number" id="c9" placeholder="enter your credits" name="c9"  /> <br> <br>
+                </div>
+                <div class="col-2">
+                    <input type="number" id="g1" placeholder="enter your grades" name="g1" /> <br> <br>
+                    <input type="number" id="g2" placeholder="enter your grades" name="g2" /> <br> <br>
+                    <input type="number" id="g3" placeholder="enter your grades" name="g3" /> <br> <br>
+                    <input type="number" id="g4" placeholder="enter your grades" name="g4" /> <br> <br>
+                    <input type="number" id="g5" placeholder="enter your grades" name="g5" /> <br> <br>
+                    <input type="number" id="g6" placeholder="enter your grades" name="g6" /> <br> <br>
+                    <input type="number" id="g7" placeholder="enter your grades" name="g7" /> <br> <br>
+                    <input type="number" id="g8" placeholder="enter your grades" name="g8"/> <br> <br>
+                    <input type="number" id="g9" placeholder="enter your grades" name="g9"/> <br> <br>
+                </div>
+            </div>
+            <center>
+            <button onclick="SGPA()">
+                calculate
+            </button>
+            <!--refresh the webpage,reset works only once-->
+            <button type="reset">
+                Reset
+            </button>
+            <br> <br>
+            <section>
+                <input type="text" id="result" class="rscls1" name="sgpaoutput" />
+            </section>
+            </center>
+            <br>
+            <br>
+            </div>
+           
+            <script src="sgpa.js"></script>
+    </body>
+    </html>
+     
